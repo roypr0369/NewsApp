@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">NewsApp</string>
     <string name="api_key">ebed5a02ecb341a99e228ba1dc4e2d8f</string>
+    <string name="business">business</string>
+    <string name="entertainment">entertainment</string>
+    <string name="general">general</string>
+    <string name="health">health</string>
+    <string name="science">science</string>
+    <string name="sports">sports</string>
+    <string name="technology">technology</string>
+    <string name="search_news">Search News...</string>
 </resources>
