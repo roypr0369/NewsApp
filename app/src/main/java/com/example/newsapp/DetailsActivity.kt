@@ -13,9 +13,8 @@ import com.squareup.picasso.Picasso
 class DetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_details)
-        val inflater = LayoutInflater.from(this)
-        inflater.inflate(R.layout.activity_details, null)
+        val root = layoutInflater.inflate(R.layout.activity_details, null)
+        setContentView(root)
         val txt_title = findViewById<TextView>(R.id.text_title)
         val txt_author = findViewById<TextView>(R.id.text_detail_author)
         val txt_time = findViewById<TextView>(R.id.text_detail_time)
